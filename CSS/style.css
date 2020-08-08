@@ -1,0 +1,137 @@
+/* Style the style of index page */
+/* Style  the navigation bar * background*/
+nav {
+  background-color: royalblue;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+  background-color: #4caf50;
+  color: white;
+}
+/* Style the class description */
+.description {
+  border: 4px solid grey;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px grey;
+  float: center;
+  height: 200px;
+  padding: 20px;
+  margin-left: 200px;
+  margin-top: 40px;
+  margin-right: 200px;
+  margin-bottom: 70px;
+  background-color: rgb(41, 128, 0);
+}
+.description h1 {
+  color: yellow;
+  float: center;
+  padding-left: 35%;
+  font-size: 210%;
+}
+.description h2 {
+  color: orange;
+  float: center;
+  padding-left: 38%;
+  font-size: 180%;
+}
+#projects {
+  font-size: x-large;
+  float: left;
+  background-color:gray;
+  padding-right: 50px;
+  padding-left: 20px;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-right: 250px;
+  margin-bottom: 40px;
+  box-shadow: 5px 5px 5px honeydew;
+  border: 4px solid grey;
+  border-radius: 15px;
+}
+#pic1 {
+  float: center;
+  margin-top: 32px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  border-width: 2px;
+  width: 400px;
+}
+/* Change the style of the class contact */
+.contact {
+  background-color: blue;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+
+.contact h4 {
+  font-size: 12px;
+  color: white;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}
+.contact p {
+  font-size: 10px;
+  color: white;
+}
+/* Change the style of the page Application */
+#t1 {
+  color: tomato;
+  display: block;
+}
+/* Change the style of the page Websites */
+#t2 {
+  color: tomato;
+  display: block;
+}
+#t3 {
+  color: orange;
+  display: block;
+}
+#websites tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#websites tr:hover {
+  background-color: #ddd;
+}
+
+#websites th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+#websites {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#websites td,
+#websites th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
